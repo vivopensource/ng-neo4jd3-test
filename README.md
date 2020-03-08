@@ -115,7 +115,7 @@ Copy 'node_modules/ng-neo4jd3/lib/assets/img/twemoji' or 'node_modules/ng-neo4jd
 ## Execute Project
 
 - Execute Project the project using `ng-serve`.  
-- Open browser and open the 'http://localhost:4200' url.
+- Open URL 'http://localhost:4200' within the browser.
 
 ![Output of ng-serve](screenshots/ng-serve.png)
 
@@ -126,7 +126,7 @@ Copy 'node_modules/ng-neo4jd3/lib/assets/img/twemoji' or 'node_modules/ng-neo4jd
 - Execute Command: `npm run lite-server` or `yarn run lite-server`
   - Command to add 'lite-server': `npm install lite-server` or `yarn add lite-server`
   - It uses the [bs-config.json](bs-config.json) within the repository
-- Open browser and open the 'http://localhost:3000' url.
+- Open URL 'http://localhost:3000' within the browser.
 
 ![Output of lite-server](screenshots/lite-server.png)
 

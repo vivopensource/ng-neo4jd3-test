@@ -9,7 +9,8 @@ Steps to use the library [ng-neo4jd3](https://github.com/vivopensource/ng-neo4jd
 - font-awesome: `npm install font-awesome` or `yarn add font-awesome`
 
 
-## Update 'angular.json' by adding following codes within style section:
+## Update 'angular.json'
+Add the following code snippet with 'angular.json' file to add styling to the graphs:
 	- CSS:
 ```
             "styles": [

@@ -1,0 +1,13 @@
+{
+    "_comment1": "https://github.com/johnpapa/lite-server",
+    "_comment2": "https://www.browsersync.io/docs/options",
+    "port": 3000,
+    "host": "127.0.0.1",
+    "files": ["./dist/**/*.{html,htm,css,js,svg}"],
+    "server": { 
+        "baseDir": "./dist/ng-neo4jd3-test",
+        "routes": {
+            "/ng-neo4jd3-test/" : "dist/ng-neo4jd3-test/"
+        }
+    }
+}

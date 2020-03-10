@@ -1,6 +1,17 @@
 {
   "name": "ng-neo4jd3-test",
-  "version": "0.0.0",
+  "version": "0.1.2",
+  "description": "Testing of Neo4j Visualisation using of D3.js",
+  "author": " <viveksacademia@gmail.com>",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivopensource/ng-neo4jd3-test.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/vivopensource/ng-neo4jd3-test#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,8 +32,9 @@
     "@angular/router": "~8.1.0",
     "d3": "^5.15.0",
     "font-awesome": "^4.7.0",
+    "license-checker": "^25.0.1",
     "lite-server": "^2.5.4",
-    "ng-neo4jd3": "^0.1.1",
+    "ng-neo4jd3": "^0.1.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"

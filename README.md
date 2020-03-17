@@ -10,8 +10,9 @@ Steps to use the library [ng-neo4jd3](https://github.com/vivopensource/ng-neo4jd
 
 
 ## Update 'angular.json'
+
 Add the following code snippet with 'angular.json' file to add styling to the graphs:
-	- CSS:
+  - CSS:
 ```
             "styles": [
               ...
@@ -20,7 +21,7 @@ Add the following code snippet with 'angular.json' file to add styling to the gr
             ],
 ```
 
-	- SCSS
+  - SCSS
 ```
             "styles": [
               ...

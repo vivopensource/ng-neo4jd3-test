@@ -132,7 +132,7 @@ Copy 'node_modules/ng-neo4jd3/lib/assets/img/twemoji' or 'node_modules/ng-neo4jd
 ![Output of lite-server](screenshots/lite-server.png)
 
 
-## Added Functionalitys
+## Added Functionalities
 
 ### Graph Container Height
 

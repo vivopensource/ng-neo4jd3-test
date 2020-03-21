@@ -131,6 +131,25 @@ Copy 'node_modules/ng-neo4jd3/lib/assets/img/twemoji' or 'node_modules/ng-neo4jd
 ![Output of lite-server](screenshots/lite-server.png)
 
 
+## Added Functionalitys
+
+### Graph Container Height
+
+Responsible for providing the dedicated height to the graph container. Default value is '100%'
+
+```
+...
+  ngOnInit(): void {
+    let options: NgNeo4jD3Options = this.ngNeo4jD3Service.getOptionsPresentation();
+    // Provides Dedicated Height to the Graph Container
+    options.graphContainerHeight = "450px";
+    this.ngNeo4jD3Service.setValues('#neo4jd3', options);
+    this.ngNeo4jD3Service.init();
+  }
+...
+```
+
+
 ## Advance functions
 
 You may find the in depth usage of the library components and functions within documentation of the original library [eisman/neo4jd3](https://github.com/eisman/neo4jd3)

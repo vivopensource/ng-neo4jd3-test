@@ -13,6 +13,8 @@ export class AppComponent {
 
   ngOnInit(): void {
     let options: NgNeo4jD3Options = this.ngNeo4jD3Service.getOptionsPresentation();
+    // Responsible for Providing the Dedicated Height to the Graph Container
+    options.graphContainerHeight = "450px";
     this.ngNeo4jD3Service.setValues('#neo4jd3', options);
     this.ngNeo4jD3Service.init();
   }
